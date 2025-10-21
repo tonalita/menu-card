@@ -1,0 +1,108 @@
+body {
+  background-color: #1a1a1a;
+  color: #f2e6d9;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+  border-bottom: 1px solid #444;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #f7c873;
+  margin-bottom: 10px;
+}
+
+#menuToggle {
+  background: none;
+  border: 1px solid #f7c873;
+  color: #f7c873;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#menuToggle:hover {
+  background-color: #f7c873;
+  color: #1a1a1a;
+}
+
+#menuCategories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 15px;
+  background-color: #111;
+  border-bottom: 1px solid #333;
+}
+
+.category {
+  padding: 12px 20px;
+  background-color: #222;
+  border: 1px solid #555;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.category:hover {
+  background-color: #f7c873;
+  color: #1a1a1a;
+}
+
+.subcategory {
+  margin-left: 10px;
+  font-size: 0.9rem;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.subcategory:hover {
+  color: #f7c873;
+}
+
+#menuItems {
+  padding: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.item {
+  margin-bottom: 25px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 15px;
+}
+
+.item h3 {
+  color: #f7c873;
+  margin-bottom: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #999;
+  border-top: 1px solid #333;
+}
+
+a {
+  color: #f7c873;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.hidden {
+  display: none;
+}
